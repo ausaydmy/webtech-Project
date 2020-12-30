@@ -16,7 +16,8 @@ Overall, we wish for the user and visitors of the website to have the best, smoo
 
 Each of the team members prepared 4 web pages for the project as shown in the following table.
 ![contributions](images/contibutions.png)
-Use of third-party resources
+# Use of third-party resources
+![3rdPartyResources](images/3rdparty.png)
 
 # References
 
