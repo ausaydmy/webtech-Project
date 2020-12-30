@@ -1,0 +1,106 @@
+.text {
+    /* bottom: 0px; */
+    /* right: 100px; */
+    display: none;
+    font-size: x-large;
+    position: relative;
+    color: white;
+    width: 20%;
+    height: 100px;
+    transition: all 0.7s;
+    text-align: center;
+}
+
+.meaningOfSports {
+    background-color: gray;
+    box-shadow: 5px 5px 50px black;
+    transition: all 0.6s 5s; 
+}
+.meaningOfSports:hover {
+    transform: scale(1.01);
+    width: 100%;
+    left: 0;
+}
+.meaningOfSports:hover .text {
+    display: block;
+    background-color: gray;
+    width: 90%;
+    left: 50px;
+    transform: skew(-8deg)
+}
+.meaningOfSports img {
+    width: 100%;
+    height:100%;
+    display: block;
+}
+.advantages {
+    width:fit-content;
+    align-items: left;
+    background-color: gray;
+    box-shadow: 5px 5px 50px gray;
+    display: flex;
+}
+.advantages img {
+    
+    transition: all 0.4s;
+}
+.advantages img:hover {
+    transform: scale(1.02);
+}
+.advText {
+    
+    z-index: 10000000;
+}
+.importance {
+    background-color: green;
+}
+.importance img {
+    width: 544px;
+    transition: all 0.5s;
+}
+.importance img:hover {
+    transform: scale(1.02);
+}
+
+.adNImp {
+    display:flex;
+}
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

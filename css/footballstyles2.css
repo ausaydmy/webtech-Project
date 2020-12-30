@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  src: url(/fonts/Oswald-VariableFont_wght.ttf);
+  font-family: Oswald;
+}
+
+#main-navbar {
+  background-color: rgb(0, 0, 0);
+  list-style-type: none;
+  display: flex;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  font-size: 22px;
+  /* color:white; */
+}
+#main-navbar a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s;
+}
+#main-navbar a:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+
+}
+#main-navbar img {
+  filter: invert(1);
+}
+li {
+  padding: 10px;
+}
+#about {
+  position: absolute;
+  right: 20px;
+}
+.active {
+  background-color: rgb(106, 102, 96);
+}
+.active:hover {
+  background-color: rgb(106, 102, 96);
+  color: black;
+}
+
+  * img:hover {
+  opacity: 0.90;
+}
+
+.secondTab1 {
+  top: 52px;
+  height: 500px;
+  width: 100%;
+  position: absolute;
+}
+
+  .title-bar {
+  text-decoration: underline;
+  top: 600px;
+  position: absolute;
+  font-family: inherit;
+  font-size: 36px;
+  color: inherit;
+  font-weight: 500;
+  text-indent: 50px;
+}
+
+.content {
+  top: 700px;
+  margin-right: 50px;
+  margin-left: 50px;
+  position: absolute;
+  font-family: inherit;
+  font-size: 17px;
+}
+
+.secondTab2 {
+  position:relative;
+  top: 850px;
+  height: 450px;
+  width: 45%;
+  padding-left: 50px;
+}
+
+.secondTab3 {
+  position:absolute;
+  top: 850px;
+  right: 0px;
+  height: 450px;
+  width: 45%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content2 {
+  top: 1350px;
+  margin-right: 50px;
+  margin-left: 50px;
+  position: absolute;
+  font-family: inherit;
+  font-size: 17px;
+  padding-bottom: 50px;
+}
+
+.secondTab4 {
+  position:absolute;
+  left: 0px;
+  top: 1600px;
+  height: 450px;
+  width: 45%;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.secondTab5 {
+  position:absolute;
+  top: 1600px;
+  right: 0px;
+  height: 450px;
+  width: 45%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
