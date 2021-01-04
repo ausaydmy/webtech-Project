@@ -123,6 +123,13 @@ To date there are 212 member countries worldwide, whilst in the UK alone there a
         let year = d.getFullYear();
         let month = d.getMonth() + 1;
         let day = d.getDate() + 1;
+        if (month < 10) {
+            month = "0" + month.toString();
+        }
+        
+        if (day < 10) {
+            day = "0" + day.toString();
+        }
         let date = year + "-" + month + "-" + day;
         $('#date').html(date)
 
