@@ -85,10 +85,15 @@
       if (name == "" || email == "" || fb == "") {
         alert("Fields cannot be empty");
       } else {
-        $("#showfb").html("Name: " + name + "<br> Email: " + email + "<br>Your Feedback was: " + fb +"<br> Thank you for your feedback!");
-        $(".results").css('background-color', 'lightblue');
-        $(".results").removeClass('hidden');
-        $("#showfb").fadeIn('slow');
+		var re = /\S+@\S+\.\S+/;
+		if (!re.test(email)) {
+			alert("Email is wrong");
+			return;
+		}
+		$("#showfb").html("Name: " + name + "<br> Email: " + email + "<br>Your Feedback was: " + fb +"<br> Thank you for your feedback!");
+		$(".results").css('background-color', 'lightblue');
+		$(".results").removeClass('hidden');
+		$("#showfb").fadeIn('slow');
       }
     });
     function getISS() {
